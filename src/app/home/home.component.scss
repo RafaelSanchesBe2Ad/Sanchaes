@@ -1,0 +1,36 @@
+.config{
+  margin: 2%;
+}
+
+.img{
+  max-width: 450px;
+  animation-name: img;
+  animation-duration: 5s;
+}
+
+@keyframes img {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+
+}
+
+.prox{
+  max-width: 420px;
+  max-height: 320px;
+  background-color: rgb(51, 31, 3);
+  border-radius: 33px;
+  animation-name: prx;
+  animation-duration: 2ms;
+}
+
+
+
+.brev{
+  margin: 2%;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
