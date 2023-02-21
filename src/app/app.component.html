@@ -1,50 +1,32 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<div class="">
+
+
+<div class="container-fluid">
   <div class="header row">
-    <div class=" col-auto col-sm-12 col-md-auto">
-      <div class="col col-sm-12 col-md-auto">
-        <img class="icoHeader" title="Logo" src="/assets/logo.png" alt="">
-      </div>
+    <div class="col-12 col-sm-4">
+      <img class="logo" src="/assets/content/joven.png" title="Rafael Sanches" alt="logo">
+      <p class="text">Rafael Sanches</p>
     </div>
-    <div class="col col-sm-12 col-md-5">
-      <p class="txt">"A percistência leva a perfeição".</p>
-    </div>
-    <div class="col col-sm-12 col-md-5 d-flex justify-content-end">
-      <span class="icoNav col-12 d-flex justify-content-around">
-        <a mat-fab routerLink="">
-            <mat-icon title="Inicío" class="mat-18" style="color: rgb(225, 226, 241);">home</mat-icon>
-        </a>
-        <a mat-fab routerLink="/Sobre">
-          <mat-icon title="Sobre" class="mat-18" style="color: rgb(225, 226, 241);">face</mat-icon>
-      </a>
-      <a mat-fab href="https://wa.me/qr/N3ZY2CB5MXVGB1" target="whatsapp.com">
-        <mat-icon title="Whatsapp" class="mat-18" style="color: rgb(225, 226, 241);">call</mat-icon>
-    </a>
-      </span>
+    <div class="col col-sm-8 d-flex justify-content-end">
+      <a class="nav" routerLink=""> Inicío</a>
+      <a class="nav" routerLink="Sobre"> Sobre</a>
+      <a class="nav" href="">Whatsapp</a>
     </div>
   </div>
 </div>
-
-
-
 
 <div>
-  <router-outlet></router-outlet>
- <div class="footer row">
-  <div class="col-auto col-sm-12 col-md-auto">
-    <div class="col col-sm-12 col-md-auto">
-    <img class="icoFooter" src="/assets/content/joven.png" alt="">
+  <div> <router-outlet></router-outlet> </div>
+  <div>
+    <div class="footer row">
+      <div class="col-2 col-sm-2 col-md-2"> <img class="icoF" src="/assets/logo.png" alt=""></div>
+      <div class="col-10 col-sm-4 col-md-6"><p style="font-size: 15px; color: aliceblue;">© Rafael Sanches</p></div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img class="miniIco" title="AtlasDB" src="/assets/miniIco4.png" alt="AtlasDB">
+        <img class="miniIco" title="Spring" src="/assets/miniIco1.png" alt="Spring">
+        <img class="miniIco" title="Angular" src="/assets/miniIco2.png" alt="Angular">
+        <img class="miniIco" title="GitHub" src="/assets/miniIco3.png" alt="GitHub">
+      </div>
     </div>
   </div>
-  <div class="col col-sm-12 col-md-5 d-flex justify-content-center">
-    <p class="txt">Desenvolvido por: Rafael Sanches</p>
-  </div>
-  <div class="col-auto col-md-5 d-flex justify-content-md-between justify-content-sm-around">
-    <img class="miniIco" src="/assets/miniIco4.png" title="Atlasdb" alt="">
-    <img class="miniIco" src="/assets/miniIco1.png" title="Spring" alt="">
-    <img class="miniIco" src="/assets/miniIco2.png" title="Angular" alt="">
-    <img class="miniIco" src="/assets/miniIco3.png" title="GitHub" alt="">
-    </div>
- </div>
 </div>
-

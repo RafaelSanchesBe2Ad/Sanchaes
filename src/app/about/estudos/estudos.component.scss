@@ -1,49 +1,25 @@
-.cont{
-  margin: 1.5%;
-  margin-top: 2%;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 2px;
+.bv{
+  margin: 2%;
+  margin-bottom: 2%;
+}
 
+.img{
+  max-width: 150px;
+  align-content: center;
+  align-items: center;
 }
 
 .title{
-  margin: 2%;
-  font-size: 23px;
-  font-family: sans-serif;
+  font-size: 25px;
+  color: #2E628C;
+  text-align: center;
   font-weight: 550;
-  color: rgb(99, 70, 9);
-  margin-top: 5%;
-  text-shadow: 0 0 0.2em rgb(250, 222, 163);
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.ico{
-  max-width: 400px;
-  margin: 2%;
-  animation-name: animation;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-
-}
-
-@keyframes animation {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 2;
-  }
-}
-
-.bv{
-  align-self: center;
-  align-items: center;
-  margin-bottom: 3%;
-  display: flexbox;
-  margin-bottom:  3px;
-
-
+.text{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 8%;
+  text-transform: inherit ;
 }

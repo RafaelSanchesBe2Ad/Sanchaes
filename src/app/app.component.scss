@@ -1,44 +1,35 @@
+
 .header{
-  background-color: rgb(14, 7, 82);
+  background-color: #1A4663;
   align-items: center;
-  align-content: center;
-  margin: 1%;
+  align-content: end;
 }
 
-.icoHeader{
-  max-width: 110px;
-  color: white;
-  padding-right: 15px;
-  margin: 2%;
-  font-size: 19px;
-  font-weight: 200;
+.logo{
+  max-width: 100px;
 }
 
-.icoNav{
-  align-items: center;
+.text{
+  color: #C2DFF5;
+  font-size: 21px;
+}
+
+.nav{
+  color: #C2DFF5;
+  font-size: 20px;
   margin: 2%;
-  color: rgb(66, 62, 6)
 }
 
 .footer{
-  margin: 0.8%;
-  max-width: auto;
-  max-height: auto;
-  background-color: rgb(79, 70, 177);
-  align-content: center;
+  background-color: #367199;
   align-items: center;
+  align-content: end;
+ .icoF{
+  max-width: 75px;
+ }
+ .miniIco{
+  margin: 2%;
+  max-width: 40px;
+ }
 }
 
-.icoFooter{
-  max-width: 90px;
-  margin-left: 8%;
-}
-
-.miniIco{
-  max-width: 55px;
-}
-
-.txt{
-  color: white;
-  font-size: 18px;
-}

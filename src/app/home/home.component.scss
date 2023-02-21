@@ -3,9 +3,9 @@
 }
 
 .img{
-  max-width: 450px;
+  max-width: 300px;
   animation-name: img;
-  animation-duration: 5s;
+  animation-duration: 1s;
 }
 
 @keyframes img {
@@ -19,8 +19,8 @@
 }
 
 .prox{
-  max-width: 420px;
-  max-height: 320px;
+  max-width: 200px;
+  max-height: 150px;
   background-color: rgb(51, 31, 3);
   border-radius: 33px;
   animation-name: prx;
@@ -31,6 +31,6 @@
 
 .brev{
   margin: 2%;
-  font-size: 22px;
+  font-size: 14px;
   color: rgb(255, 255, 255);
 }
